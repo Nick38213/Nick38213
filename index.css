@@ -1,0 +1,63 @@
+body{
+  margin:0;
+  font-family: Inter, sans-serif;
+  background:#0f172a;
+  color:#e5e7eb;
+}
+
+.app{
+  display:flex;
+}
+
+.sidebar{
+  width:220px;
+  background:#020617;
+  padding:20px;
+}
+
+.sidebar h2{
+  color:#3b82f6;
+}
+
+.main{
+  flex:1;
+  padding:20px;
+}
+
+.topbar{
+  margin-bottom:20px;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:10px;
+}
+
+.card{
+  background:#111827;
+  padding:20px;
+  border-radius:12px;
+}
+
+.cars{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:15px;
+}
+
+.car-card{
+  background:#111827;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.car-card .img{
+  height:140px;
+  background-size:cover;
+}
+
+.car-card h3{
+  margin:10px;
+}
